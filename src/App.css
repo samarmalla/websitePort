@@ -1,0 +1,102 @@
+
+
+/* Global Styles for Portfolio */
+
+.App {
+  min-height: 100vh;
+  background: transparent;
+  transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
+}
+
+body, html, .App {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Inter', Arial, sans-serif;
+  background: linear-gradient(135deg, #070A18 0%, #0C1123 40%, #151932 80%, #000000 100%);
+  color: #FFFFFF;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.App {
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  background: transparent;
+  transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
+  padding: 80px 0;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  background: linear-gradient(120deg, #070A18 0%, #0C1123 60%, #151932 100%);
+  color: #FFFFFF;
+  border-radius: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 32px rgba(44,28,72,0.10);
+  section {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 30px 0;
+  }
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #2a174d;
+}
+::-webkit-scrollbar-thumb {
+  background: #4f3cae;
+  border-radius: 8px;
+}
+
+/* General Theme Styles (Purple/Blue Gradient) */
+.cta-btn {
+  background: #4f3cae;
+  color: #fff;
+}
+.cta-btn.secondary {
+  background: #2a174d;
+}
+.cta-btn:hover {
+  background: #7c3aed;
+  color: #fff;
+}
+.tech-badge {
+  background: #4f3cae;
+  color: #fff;
+}
+.project-card {
+  background: rgba(42, 23, 77, 0.85);
+  color: #e0e7ef;
+}
+.skill-card {
+  background: rgba(42, 23, 77, 0.85);
+  color: #e0e7ef;
+}
+.contact-form {
+  background: rgba(42, 23, 77, 0.85);
+  color: #e0e7ef;
+}
+.contact-links a {
+  color: #7c3aed;
+}
+.contact-links a:hover {
+  color: #fff;
+}
+.navbar-links button:hover {
+  background: #4f3cae;
+  color: #fff;
+}
+.navbar-links li.active button {
+  color: #7c3aed;
+}

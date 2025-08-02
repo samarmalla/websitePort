@@ -1,0 +1,117 @@
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, #4f3cae 0%, #7c3aed 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 0.45rem 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 2px 12px #4f3cae55, 0 0 8px #7c3aed44;
+  margin-right: 0.7rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  font-family: 'Lato', 'Poppins', 'Inter', Arial, sans-serif;
+  letter-spacing: 0.7px;
+  transition: background 0.18s, box-shadow 0.18s, color 0.18s, transform 0.18s;
+}
+.github-btn:hover {
+  background: linear-gradient(90deg, #7c3aed 0%, #4f3cae 100%);
+  color: #fff;
+  box-shadow: 0 4px 24px #7c3aed99, 0 0 12px #fff;
+  transform: scale(1.06) translateY(-2px);
+}
+.github-btn img {
+  margin-right: 8px;
+  filter: brightness(1.2);
+}
+.project-name-label {
+  display: inline-block;
+  background: #23244a;
+  color: #fff;
+  border-radius: 18px;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.1rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 12px #4f3cae33;
+  border: 2px solid #4f3cae;
+  font-family: 'Lato', 'Poppins', 'Inter', Arial, sans-serif;
+}
+.projects-heading {
+  color: #fff !important;
+}
+/* Modern Projects Section */
+.projects-section {
+  background: linear-gradient(135deg, #070A18 0%, #0C1123 40%, #151932 80%, #000000 100%);
+  color: #FFFFFF;
+  padding: 80px 0;
+}
+.projects-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-family: 'Lato', 'Poppins', 'Inter', Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.project-card.modern-card {
+  background: linear-gradient(90deg, #0C1123 0%, #4f3cae 100%);
+  border-radius: 32px;
+  box-shadow: 0 2px 16px #4f3cae44;
+  padding: 2rem;
+  transition: background 0.22s, box-shadow 0.22s, transform 0.22s;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.project-card.modern-card:hover {
+  background: linear-gradient(90deg, #4f3cae 0%, #fff 100%);
+  color: #0C1123;
+  box-shadow: 0 4px 32px #4f3cae88, 0 0 12px #fff;
+  transform: scale(1.06) translateY(-2px);
+}
+.project-tech {
+  margin: 1rem 0;
+}
+.tech-badge {
+  display: inline-block;
+  background: #1A1D40;
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-family: 'Lato', 'Poppins', 'Inter', Arial, sans-serif;
+}
+.project-links a {
+  background: none;
+  color: #fff;
+  margin-right: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-family: 'Poppins', 'Inter', Arial, sans-serif;
+  transition: color 0.18s;
+}
+.project-links a:hover {
+  text-decoration: underline;
+  color: #fff;
+  text-shadow: 0 0 16px #fff, 0 0 32px #0C1123;
+}

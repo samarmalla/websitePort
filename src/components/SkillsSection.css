@@ -1,0 +1,79 @@
+/* Modern, professional, spacious skills section */
+/* Very dark purple-black gradient background */
+.skills-section {
+  padding: 80px 0 60px 0;
+  background: linear-gradient(135deg, #070A18 0%, #0C1123 40%, #151932 80%, #000000 100%);
+  color: #FFFFFF;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.skills-header {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, #fff 60%, #e0e0e0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 12px #4f3cae44;
+}
+
+.skills-intro {
+  font-size: 1.18rem;
+  color: #e0e0e0;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 36px 28px;
+  justify-items: center;
+  margin-bottom: 0;
+  padding: 0 16px;
+}
+
+/* Gradient card effect, very dark */
+.skill-card {
+  background: linear-gradient(120deg, #151932 0%, #2B1C48 70%, #1A1D40 100%);
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(44,28,72,0.18);
+  padding: 38px 20px 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.22s, box-shadow 0.22s;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid transparent;
+}
+.skill-card:focus, .skill-card:hover {
+  transform: translateY(-10px) scale(1.06);
+  box-shadow: 0 0 16px 4px #fff2, 0 12px 40px rgba(44,28,72,0.32);
+  background: linear-gradient(120deg, #0C1123 0%, #fff 100%);
+  border-color: #fff;
+}
+
+.skill-icon {
+  font-size: 3.2rem;
+  margin-bottom: 16px;
+  /* color removed to allow natural icon color */
+  filter: drop-shadow(0 0 8px #fff, 0 0 16px #0C1123);
+}
+
+.skill-label {
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0 1px 8px #2B1C48;
+}
